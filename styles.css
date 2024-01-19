@@ -16,13 +16,13 @@ header, nav, section, footer {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5;
     overflow: hidden;
 }
 
 nav li {
     display: inline;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 a {
