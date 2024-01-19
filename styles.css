@@ -1,0 +1,113 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #557A95; /* Updated background color for the website */
+    color: #fff; /* Text color */
+}
+
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #8D8741; /* Background color for the footer */
+    box-shadow: none;
+}
+
+/* Additional Styling for Improved Design */
+nav {
+    background-color: #907163; /* Updated background color for navigation */
+    color: #fff; /* Text color for navigation links */
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff; /* Text color for navigation links */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #DAAD66; /* Darkened hover color */
+}
+
+section {
+    margin-top: 20px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.photo-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Center the Company Name */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #8D8741; /* Updated background color for header */
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px; /* Smaller font size */
+    color: #fff; /* Text color */
+}
+
+/* Contact Us Section */
+section.contact {
+    background-color: #7395AE; /* Updated background color for Contact Us section */
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff; /* Text color for Contact Us section */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    .photo-gallery img {
+        width: 100%;
+    }
+}
