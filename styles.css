@@ -16,7 +16,7 @@ header, nav, section, footer {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 1;
+    padding: 0;
     overflow: hidden;
 }
 
