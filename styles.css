@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #557A95; /* Updated background color for the website */
+    background-color: #042943; /* Updated background color for the website */
     color: #fff; /* Text color */
 }
 
@@ -33,13 +33,13 @@ a {
 footer {
     margin-top: 20px;
     text-align: center;
-    background-color: #8D8741; /* Background color for the footer */
+    background-color: #041149; /* Background color for the footer */
     box-shadow: none;
 }
 
 /* Additional Styling for Improved Design */
 nav {
-    background-color: #907163; /* Updated background color for navigation */
+    background-color: #041149; /* Updated background color for navigation */
     color: #fff; /* Text color for navigation links */
     text-align: center;
 }
@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #DAAD66; /* Darkened hover color */
+    background-color: #000000; /* Darkened hover color */
 }
 
 section {
@@ -88,7 +88,7 @@ header {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: #8D8741; /* Updated background color for header */
+    background-color: #0b012b; /* Updated background color for header */
     padding: 20px;
 }
 
